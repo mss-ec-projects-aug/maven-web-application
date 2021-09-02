@@ -1,7 +1,9 @@
 node('nodes')
 {
 
-def mavenHome = tool name: "maven 3.6.3"  
+def mavenHome = tool name: "maven 3.6.3" 
+ 
+ // This is a S LC
  stage('CheckoutCode')
  {
   git branch: 'development', credentialsId: 'af6db5c8-af4c-4cef-b11c-762f5060aec1', url: 'https://github.com/mss-ec-projects-aug/maven-web-application.git'
