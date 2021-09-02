@@ -10,7 +10,7 @@ def mavenHome = tool name: "maven 3.6.3"
  {
   sh "${mavenHome}/bin/mvn clean package"
  }
- 
+ /*
  stage('ExecuteSonarQubeReport')
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -38,6 +38,8 @@ Regards,
 Mithun Technologies,
 7207679798''', cc: 'abrarsyedp@gmail.com', from: '', replyTo: '', subject: 'Build Over', to: 'abrarsyedp@gmail.com'
  }
-
+*/
+ 
+}
  
  
